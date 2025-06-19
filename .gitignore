@@ -1,0 +1,55 @@
+# ========== 数据相关 ==========
+data/
+*.csv
+*.tsv
+*.zip
+*.npz
+*.npy
+*.txt
+
+# ========== 模型输出 ==========
+models/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pb
+*.joblib
+
+# ========== 可视化输出 ==========
+outputs/
+figures/
+images/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# ========== Python缓存 ==========
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ========== Jupyter缓存 ==========
+.ipynb_checkpoints/
+
+# ========== 虚拟环境相关 ==========
+env/
+venv/
+.venv/
+
+# ========== 编辑器/IDE配置 ==========
+.vscode/
+.idea/
+
+# ========== 系统文件 ==========
+.DS_Store
+Thumbs.db
+
+# ========== 日志 / 临时文件 ==========
+*.log
+*.tmp
+*.bak
+*.swp
